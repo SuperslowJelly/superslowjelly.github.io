@@ -1,18 +1,5 @@
 import { default as data } from "../db/db.js";
 
-/*
-	fetching latest blogs from medium.com
-*/
-function fetchBlogsFromMedium() {
-	fetch(
-		"https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@vinaysomawat"
-	)
-		.then((response) => response.json())
-		.then((data) => {
-			populateBlogs(data["items"], "blogs", "read-more-blogs");
-		});
-}
-
 function populateSkills(items, id) {
 	let skillsTag = document.getElementById(id);
 	for (let i = 0; i < items.length; i++) {
@@ -40,125 +27,64 @@ function populateSkills(items, id) {
 	}
 }
 
-function populateProjects(items, id) {
-	let projectdesign = document.getElementById(id);
-	for (let i = 0; i < items.length; i++) {
-		let h4 = document.createElement("h4");
-		h4.className = "project-heading";
-		h4.innerHTML = items[i].projectName;
+// function populateProjects(items, id) {
+// 	let projectdesign = document.getElementById(id);
+// 	for (let i = 0; i < items.length; i++) {
+// 		let h4 = document.createElement("h4");
+// 		h4.className = "project-heading";
+// 		h4.innerHTML = items[i].projectName;
 
-		let a = document.createElement("a");
-		a.href = items[i].preview;
-		a.target = "_blank";
-		a.append(h4);
+// 		let a = document.createElement("a");
+// 		a.href = items[i].preview;
+// 		a.target = "_blank";
+// 		a.append(h4);
 
-		let img = document.createElement("img");
-		img.src = items[i].image;
-		img.className = "img-fluid";
+// 		let img = document.createElement("img");
+// 		img.src = items[i].image;
+// 		img.className = "img-fluid";
 
-		let divResumeContentLeft = document.createElement("div");
-		divResumeContentLeft.className = "resume-content";
-		divResumeContentLeft.id = "left-div";
-		divResumeContentLeft.append(img);
+// 		let divResumeContentLeft = document.createElement("div");
+// 		divResumeContentLeft.className = "resume-content";
+// 		divResumeContentLeft.id = "left-div";
+// 		divResumeContentLeft.append(img);
 
-		let divResumeContentRight = document.createElement("div");
-		divResumeContentRight.className = "resume-content";
-		divResumeContentRight.id = "right-div";
+// 		let divResumeContentRight = document.createElement("div");
+// 		divResumeContentRight.className = "resume-content";
+// 		divResumeContentRight.id = "right-div";
 
-		let p = document.createElement("p");
-		p.className = "project-description";
-		p.innerHTML = items[i].summary;
+// 		let p = document.createElement("p");
+// 		p.className = "project-description";
+// 		p.innerHTML = items[i].summary;
 
-		let divSpan = document.createElement("div");
-		for (let k = 0; k < items[i].techStack.length; k++) {
-			let span = document.createElement("span");
-			span.className = "badge badge-secondary";
-			span.innerHTML = items[i].techStack[k];
-			divSpan.append(span);
-		}
+// 		let divSpan = document.createElement("div");
+// 		for (let k = 0; k < items[i].techStack.length; k++) {
+// 			let span = document.createElement("span");
+// 			span.className = "badge badge-secondary";
+// 			span.innerHTML = items[i].techStack[k];
+// 			divSpan.append(span);
+// 		}
 
-		let divSubHeading = document.createElement("div");
-		divSubHeading.className = "sub-heading";
-		divSubHeading.append(p);
-		divSubHeading.append(divSpan);
-		divResumeContentRight.append(divSubHeading);
+// 		let divSubHeading = document.createElement("div");
+// 		divSubHeading.className = "sub-heading";
+// 		divSubHeading.append(p);
+// 		divSubHeading.append(divSpan);
+// 		divResumeContentRight.append(divSubHeading);
 
-		let divResumeItem = document.createElement("div");
-		divResumeItem.className = "resume-item";
-		divResumeItem.append(divResumeContentLeft);
-		divResumeItem.append(divResumeContentRight);
-		a.append(divResumeItem);
+// 		let divResumeItem = document.createElement("div");
+// 		divResumeItem.className = "resume-item";
+// 		divResumeItem.append(divResumeContentLeft);
+// 		divResumeItem.append(divResumeContentRight);
+// 		a.append(divResumeItem);
 
-		let divProjectCard = document.createElement("div");
-		divProjectCard.className = "project-card";
-		divProjectCard.append(a);
+// 		let divProjectCard = document.createElement("div");
+// 		divProjectCard.className = "project-card";
+// 		divProjectCard.append(a);
 
-		let li = document.createElement("li");
-		li.append(divProjectCard);
-		projectdesign.append(li);
-	}
-}
-
-function populateBlogs(items, id, subid) {
-	let projectdesign = document.getElementById(id);
-	for (let i = 0; i < 3; i++) {
-		let h4 = document.createElement("h4");
-		h4.className = "project-heading";
-		h4.innerHTML = items[i].title;
-
-		let a = document.createElement("a");
-		a.href = items[i].link;
-		a.target = "_blank";
-		a.append(h4);
-
-		let img = document.createElement("img");
-		img.src = items[i].thumbnail;
-		img.className = "img-fluid";
-
-		let divResumeContentLeft = document.createElement("div");
-		divResumeContentLeft.className = "resume-content";
-		divResumeContentLeft.id = "left-div";
-		divResumeContentLeft.append(img);
-
-		let divResumeContentRight = document.createElement("div");
-		divResumeContentRight.className = "resume-content";
-		divResumeContentRight.id = "right-div";
-
-		let p = document.createElement("p");
-		p.className = "project-description";
-		let html = items[i].content;
-		let doc = /<p>(.*?)<\/p>/g.exec(html);
-		p.innerHTML = doc[1];
-
-		let divSpan = document.createElement("div");
-		for (let k = 0; k < items[i].categories.length; k++) {
-			let span = document.createElement("span");
-			span.className = "badge badge-secondary";
-			span.innerHTML = items[i].categories[k];
-			divSpan.append(span);
-		}
-
-		let divSubHeading = document.createElement("div");
-		divSubHeading.className = "sub-heading";
-		divSubHeading.append(p);
-		divSubHeading.append(divSpan);
-		divResumeContentRight.append(divSubHeading);
-
-		let divResumeItem = document.createElement("div");
-		divResumeItem.className = "resume-item";
-		divResumeItem.append(divResumeContentLeft);
-		divResumeItem.append(divResumeContentRight);
-		a.append(divResumeItem);
-
-		let divProjectCard = document.createElement("div");
-		divProjectCard.className = "project-card";
-		divProjectCard.append(a);
-
-		let li = document.createElement("li");
-		li.append(divProjectCard);
-		projectdesign.append(li);
-	}
-}
+// 		let li = document.createElement("li");
+// 		li.append(divProjectCard);
+// 		projectdesign.append(li);
+// 	}
+// }
 
 function populateExp_Edu(items, id) {
 	let mainContainer = document.getElementById(id);
@@ -281,12 +207,10 @@ function populateLinks(items, id) {
 
 populateSkills(data.skills, "skills");
 
-fetchBlogsFromMedium();
-
-populateProjects(data.projects.web, "web-projects");
-populateProjects(data.projects.software, "software-projects");
-populateProjects(data.projects.android, "android-projects");
-populateProjects(data.projects.freelance, "freelance-projects");
+//populateProjects(data.projects.web, "web-projects");
+//populateProjects(data.projects.software, "software-projects");
+//populateProjects(data.projects.android, "android-projects");
+//populateProjects(data.projects.freelance, "freelance-projects");
 
 populateExp_Edu(data.experience, "experience");
 populateExp_Edu(data.education, "education");
