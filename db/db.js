@@ -2,107 +2,148 @@ export default {
 	skills: {
 		languages: [
 			{
-				skillName: "C++",
-				color: "8",
+				skillName: "C/C++",
 				percentage: "80",
 			},
 			{
 				skillName: "Java",
-				color: "8",
 				percentage: "80",
 			},
 			{
-				skillName: "C#",
-				color: "3",
+				skillName: "HTML",
+				percentage: "80",
+			},
+			{
+				skillName: "CSS",
+				percentage: "80",
+			},
+			{
+				skillName: "PHP",
 				percentage: "50",
 			},
 			{
-				title: "Languages",
-				skillName: "JavaScript",
-				color: "3",
+				skillName: "C#",
 				percentage: "50",
+			},
+			{
+				skillName: "JavaScript",
+				percentage: "50",
+			},
+			{
+				skillName: "Python",
+				percentage: "50",
+			},
+		],
+		engines: [
+			{
+				skillName: "Unity",
+				percentage: "80",
+			},
+			{
+				skillName: "Unreal",
+				percentage: "50",
+			},
+			{
+				skillName: "GoDot",
+				percentage: "20",
 			},
 		],
 		libraries: [
 			{
+				skillName: "STL",
+				percentage: "80",
+			},
+			{
+				skillName: "SpongeAPI 5/7",
+				percentage: "80",
+			},
+			{
+				skillName: "Forge 1.7/1.12",
+				percentage: "80",
+			},
+			{
+				skillName: "RapidJSON",
+				percentage: "80",
+			},
+			{
 				skillName: "PS4",
-				color: "3",
 				percentage: "50",
 			},
 			{
 				skillName: "DX12",
-				color: "3",
 				percentage: "50",
 			},
 			{
 				skillName: "DX11",
-				color: "3",
+				percentage: "50",
+			},
+			{
+				skillName: "Spigot",
+				percentage: "50",
+			},
+			{
+				skillName: "Bukkit",
 				percentage: "50",
 			},
 		],
 		backend: [
 			{
 				skillName: "SQL",
-				color: "8",
 				percentage: "80",
 			},
 			{
 				skillName: "S/FTP",
-				color: "8",
 				percentage: "80",
 			},
 			{
 				skillName: "SSH",
-				color: "3",
-				percentage: "50",
-			},
-		],
-		design: [
-			{
-				skillName: "HTML",
-				color: "8",
-				percentage: "80",
-			},
-			{
-				skillName: "CSS",
-				color: "3",
 				percentage: "50",
 			},
 		],
 		versionControl: [
 			{
 				skillName: "GitHub",
-				color: "8",
+				percentage: "80",
+			},
+			{
+				skillName: "Trello",
+				percentage: "80",
+			},
+			{
+				skillName: "Asana",
 				percentage: "80",
 			},
 			{
 				skillName: "JIRA",
-				color: "3",
 				percentage: "50",
 			},
 			{
 				skillName: "Notion",
-				color: "1",
 				percentage: "20",
 			},
 		],
 		environments: [
 			{
 				skillName: "Visual Studio",
-				color: "8",
 				percentage: "80",
 			},
 			{
 				skillName: "VS Code",
-				color: "8",
 				percentage: "80",
 			},
 			{
 				skillName: "IntelliJ IDEA",
-				color: "8",
 				percentage: "80",
 			},
-		]
+			{
+				skillName: "Illustrator",
+				percentage: "80",
+			},
+			{
+				skillName: "Photoshop",
+				percentage: "50",
+			},
+		],
 	},
 	projects: {
 		professional: [
@@ -118,6 +159,17 @@ export default {
 					"SpongeAPI 7",
 					"Photoshop",
 					"IntelliJ IDEA",
+				],
+			},
+			{
+				projectName: "Kouros.uk",
+				image: "images/kouros.png",
+				summary:
+					"Website created for a local Greek taverna in my home-town, featuring mobile-first design, multiple expansive pages, online Facebook Messenger chat integration, and more.",
+				preview: "https://kouros.uk/",
+				techStack: [
+					"HTML",
+					"CSS",
 				],
 			},
 			{
