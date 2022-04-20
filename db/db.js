@@ -4,7 +4,7 @@ export default {
 			text: [
 				"Hello! 😁",
 				"I'm Chae Taylor. I'm currently studying Computer Science for Games at Sheffield Hallam University.",
-				"I'm a developer, a designer, and an overall technophile.",
+				"I'm a developer, a designer, and an overall techie.",
 				"I love to create with all the technology at my disposal.",
 				"I'm currently looking for a permanent post-graduate position in games development!"
 			],
