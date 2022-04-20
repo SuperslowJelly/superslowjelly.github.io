@@ -5,13 +5,19 @@ function populateSkills(items, id) {
 	for (let i = 0; i < items.length; i++) {
 		let h3 = document.createElement("h3");
 		h3.innerHTML = items[i].skillName;
+		if (items[i].percentage >= 80) h3.innerHTML += " <span style=\"color: #02c39a; float: right; font-size: 15px\">ADVANCED</span>";
+		else if (items[i].percentage >= 50) h3.innerHTML += " <span style=\"color: #f9bf3f; float: right; font-size: 15px\">INTERMEDIATE</span>";
+		else h3.innerHTML += " <span style=\"color: #2c98f0; float: right; font-size: 15px\">BEGINNER</span>";
 
 		let divProgress = document.createElement("div");
 		divProgress.className = "progress";
 
 		let divProgressBar = document.createElement("div");
-		divProgressBar.className = "progress-bar color-" + items[i].color;
+		divProgressBar.className = "progress-bar color-";
 		divProgressBar.style = "width:" + items[i].percentage + "%";
+		if (items[i].percentage >= 80) divProgressBar.className += 8;
+		else if (items[i].percentage >= 50) divProgressBar.className += 3;
+		else divProgressBar.className += 1;
 		divProgress.append(divProgressBar);
 
 		let divProgressWrap = document.createElement("div");
@@ -205,12 +211,12 @@ function populateLinks(items, id) {
 	}
 }
 
-populateSkills(data.skills.languages, "skills-Languages");
-populateSkills(data.skills.libraries, "skills-Libraries");
-populateSkills(data.skills.backend, "skills-Backend");
-populateSkills(data.skills.design, "skills-Design");
-populateSkills(data.skills.versionControl, "skills-VersionControl");
-populateSkills(data.skills.environments, "skills-Environments");
+populateSkills(data.skills.languages, "skills-languages");
+populateSkills(data.skills.engines, "skills-engines");
+populateSkills(data.skills.libraries, "skills-libraries");
+populateSkills(data.skills.backend, "skills-backend");
+populateSkills(data.skills.versionControl, "skills-versioncontrol");
+populateSkills(data.skills.environments, "skills-environments");
 
 populateProjects(data.projects.professional, "professional-projects");
 populateProjects(data.projects.personal, "personal-projects");
