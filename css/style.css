@@ -17,7 +17,7 @@
 .dark-mode {
 	background-color: black;
 	color: white;
-  }
+}
 
 /* =======================================================
 *
@@ -1755,7 +1755,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .colorlib-nav-toggle.dark.active i::before,
 .colorlib-nav-toggle.dark.active i::after {
-	background: #000;
+	background: #FFF;
 }
 .colorlib-nav-toggle:hover,
 .colorlib-nav-toggle:focus,
@@ -1792,6 +1792,8 @@ body.offcanvas .colorlib-nav-toggle {
 	transition: 0.2s;
 }
 .colorlib-nav-toggle.dark i {
+	background-color: #FFF;
+	background: #FFF;
 	position: relative;
 	-webkit-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
@@ -1799,6 +1801,8 @@ body.offcanvas .colorlib-nav-toggle {
 }
 .colorlib-nav-toggle.dark i::before,
 .colorlib-nav-toggle.dark i::after {
+	background-color: #FFF;
+	background: #FFF;
 	-webkit-transition: 0.2s;
 	-o-transition: 0.2s;
 	transition: 0.2s;

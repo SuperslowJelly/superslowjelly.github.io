@@ -323,8 +323,8 @@ Accordion.prototype.dropdown = function (e) {
 var accordion = new Accordion($("#accordion"), false);
 
 function enableDarkMode() {
-	var element = document.body;
-	element.classList.toggle("dark-mode");
+	document.body.classList.toggle("dark-mode");
+	$(".colorlib-nav-toggle").toggleClass("dark");
 }
 
 const isDarkMode = () =>
