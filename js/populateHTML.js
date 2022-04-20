@@ -215,7 +215,6 @@ populateSkills(data.skills.environments, "skills-Environments");
 populateProjects(data.projects.professional, "professional-projects");
 populateProjects(data.projects.personal, "personal-projects");
 populateProjects(data.projects.university, "university-projects");
-populateProjects(data.projects.college, "college-projects");
 
 populateExp_Edu(data.experience, "experience");
 populateExp_Edu(data.education, "education");

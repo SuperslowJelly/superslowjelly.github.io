@@ -11,7 +11,7 @@ export default {
 		},
 		contact: {
 			text: [
-				"If you would like to get in touch with me, be it for exploring a technology, a position, or to just say hi, feel free to send me an email at 'chaetaylor@msn.com', or message me on Discord at 'JELLY#0001'!",
+				"If you would like to get in touch with me, be it for exploring a technology, a position, or to just say hi, feel free to contact me via LinkedIn, or message me on Discord at 'JELLY#0001'!",
 			],
 		},
 	},
@@ -180,7 +180,133 @@ export default {
 			},
 		],
 		personal: [
-			
+			{
+				projectName: "Dungeon Fight",
+				image: "",
+				summary:
+					"Text-based dungeon fighter game built in Java as a first attempt at a java-based video game.",
+				preview: "https://github.com/SuperslowJelly/Dungeon-Fight",
+				techStack: [
+					"Java",
+				],
+			},
+			{
+				projectName: "Leaderboards",
+				image: "",
+				summary:
+					"SpongeForge 1.12.2 plugin built in Java which tracks a wide range of player statistics, such as PvP kills, deaths, time played, and more. Stats are then posted to global leaderboards available via text by command, or in-game using in-world holograms. Players maintaining top positions can be configured to receive rewards, such as unique in-game chat prefixes or cosmetic items.",
+				preview: "",
+				techStack: [
+					"Java",
+					"SpongeAPI 7",
+					"IntelliJ IDEA",
+				],
+			},
+			{
+				projectName: "DiscordBridge",
+				image: "",
+				summary:
+					"SpongeForge 1.12.2/1.10.2 / Bukkit / Spigot plugin built in Java which bridges multiple in-game servers to Discord servers using a single decentralised JDA-based Discord bot. The plugin can be configured to forward in-game chat to discord channels and vice versa, display player counts in discord, post server status updates to discord, and more. The plugin also provides extra functionality between game servers by providing a global in-game chat accessible from all servers, and a global player list so players can see where their friends are playing using the Lilypad proxy API.",
+				preview: "",
+				techStack: [
+					"Java",
+					"SpongeAPI 7",
+					"SpongeAPI 5",
+					"Bukkit",
+					"Spigot",
+					"JDA",
+					"LilypadAPI",
+					"IntelliJ IDEA",
+				],
+			},
+			{
+				projectName: "WarpSigns",
+				image: "",
+				summary:
+					"SpongeForge 1.12.2 plugin built in Java which allows players to create in-game signs that other players can warp to through a command or a GUI menu.",
+				preview: "",
+				techStack: [
+					"Java",
+					"SpongeAPI 7",
+					"IntelliJ IDEA",
+				],
+			},
+			{
+				projectName: "TamerTiers",
+				image: "",
+				summary:
+					"SpongeForge 1.12.2 plugin built in Java which provides extra functionality to the 'Fossils & Archaeology' mod by providing an EXP-based progression system to players. EXP is gained by interacting with the in-game dinosaurs and completing configurable objectives. Accrued levels award players with access to more dinosaurs, one-time rewards, and other configurable bonuses. The plugin also provides support for a premium season pass, allowing for extra rewards and purpose-built decorative armour sets that are modelled in BlockBench.",
+				preview: "",
+				techStack: [
+					"Java",
+					"SpongeAPI 7",
+					"IntelliJ IDEA",
+					"BlockBench",
+				],
+			},
+			{
+				projectName: "AreaRenting",
+				image: "",
+				summary:
+					"SpongeForge 1.12.2 plugin built in Java which provides players with the ability to declare 'rentable' areas of in-game land, which other players can then rent. The plugin provides a suite of tools for plot management via in-game GUIs, and can be used by server administrators to create plot market systems for community use.",
+				preview: "",
+				techStack: [
+					"Java",
+					"SpongeAPI 7",
+					"IntelliJ IDEA",
+				],
+			},
+			{
+				projectName: "JNDIDetector",
+				image: "",
+				summary:
+					"SpongeForge 1.12.2/1.10.2 / Bukkit / Spigot plugin built in Java which detects the Log4J JNDI exploit, and provides a configurable list of commands to run on detection, allowing server administrators to automatically detect and deal with players who attempt to abuse the exploit.",
+				preview: "",
+				techStack: [
+					"Java",
+					"SpongeAPI 7",
+					"SpongeAPI 5",
+					"Bukkit",
+					"Spigot",
+					"IntelliJ IDEA",
+				],
+			},
+			{
+				projectName: "PrefixManager",
+				image: "",
+				summary:
+					"SpongeForge 1.12.2 plugin built in Java which gives players the ability to pick from a list of accrued in-game chat prefixes and switch between them at will.",
+				preview: "https://github.com/SuperslowJelly/PrefixManager",
+				techStack: [
+					"Java",
+					"SpongeAPI 7",
+					"IntelliJ IDEA",
+				],
+			},
+			{
+				projectName: "GUIShops",
+				image: "",
+				summary:
+					"SpongeForge 1.12.2 plugin built in Java which allows server administrators to set up GUI-based server shops that allow players to buy and sell their items to/from the server.",
+				preview: "",
+				techStack: [
+					"Java",
+					"SpongeAPI 7",
+					"IntelliJ IDEA",
+				],
+			},
+			{
+				projectName: "PlatePrefix",
+				image: "",
+				summary:
+					"SpongeForge 1.12.2 plugin built in Java which adjusts player namebars to display their rank, and change the colour of their name based on the given configuration.",
+				preview: "",
+				techStack: [
+					"Java",
+					"SpongeAPI 7",
+					"IntelliJ IDEA",
+				],
+			},
 		],
 		university: [
 			{
@@ -198,9 +324,18 @@ export default {
 					"JuiceFX",
 				],
 			},
-		],
-		college: [
-			
+			{
+				projectName: "\"Realistic Tower Defence\"",
+				image: "",
+				summary:
+					"Realistic Tower Defence is a tower defence game built for PC in Unity as part of my 2nd academic year studying Computer Science for Games at Sheffield Hallam University for a group project with one other programmer, and 3 artists. A trailer video is linked to this project card with a preview.",
+				preview: "https://youtu.be/8BcEseg0My4",
+				techStack: [
+					"C#",
+					"Unity",
+					"Visual Studio",
+				],
+			},
 		],
 	},
 	experience: [
@@ -223,7 +358,7 @@ export default {
 			tags: [
 				"Java",
 				"GO",
-				"SpongeAPI",
+				"SpongeAPI 5/7",
 				"ForgeAPI",
 				"Bukkit",
 				"Spigot",
