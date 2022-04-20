@@ -121,109 +121,86 @@ export default {
 		]
 	},
 	projects: {
-		web: [
+		professional: [
 			{
-				projectName: "Programming Diaries",
-				image: "images/programmingdiaries.png",
+				projectName: "FossilTech",
+				image: "",
 				summary:
-					"Developed a full stack blog application to provide content on techical topics across the internet with admin interface.",
-				preview: "https://programmingdiaries.herokuapp.com/",
+					"Fossiltech is a Minecraft modpack/dedicated server experience that I have created as a game overhaul of Minecraft. The gameloop involves mining for fossils and genetically engineering the extracted DNA from the fossils to create living dinosaurs, which are then taken care of in a jurrasic park-style system by the player. I created a suite of proprietary client and server-side features using Forge API 1.12.2, and SpongeAPI 7 in Java, alongside graphical and literary marketing material to promote the modpack. The server has approx. 2,400+ unique logins as of 08/03/2022 - full-scale marketing is yet to take place.",
+				preview: "https://www.technicpack.net/modpack/complex-gaming-fossiltech",
 				techStack: [
-					"Django",
-					"SQLite",
-					"Bootstrap",
-					"JavaScript",
-					"Heroku",
+					"Java",
+					"ForgeAPI 1.12",
+					"SpongeAPI 7",
+					"Photoshop",
+					"IntelliJ IDEA",
 				],
 			},
 			{
-				projectName: "Find Your Bank",
-				image: "images/findyourbank.png",
+				projectName: "Advanced Wizardry",
+				image: "",
 				summary:
-					"Developed a React application to render a list of banks fetched from API. Filtered the banks based on queries from localstorage, marked favorites banks.",
-				preview: "https://clever-fermi-0d5d76.netlify.app",
-				techStack: ["Reactjs", "Bootstrap", "JavaScript", "Netlify"],
+					"Advanced Wizardry is a Minecraft modpack/dedicated server that I have been overseeing all operations of since January 2020. The modpack currently has 177,000+ unique logins, and 790,000+ client runs as of 08/03/2022.",
+				preview: "https://www.technicpack.net/modpack/advanced-wizardry",
+				techStack: [
+					"Java",
+					"ForgeAPI 1.7",
+					"Bukkit",
+					"Spigot",
+					"IntelliJ IDEA",
+				],
 			},
 			{
-				projectName: "Web Portfolio",
-				image: "images/portfolio.png",
+				projectName: "Voidpack 2",
+				image: "",
 				summary:
-					"Web Portfolio to showcase acadmics, skills, projects and contact details in better manner.",
-				preview: "https://github.com/vinaysomawat/Travographer-Portal",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
+					"Voidpack 2 is a Minecraft 'Skyblock' modpack/dedicated server that I have been overseeing all operations of since January 2020. The modpack currently has 536,000+ unique logins, and 2,000,000+ client runs as of 08/03/2022.",
+				preview: "https://www.technicpack.net/modpack/voidpack-2",
+				techStack: [
+					"Java",
+					"ForgeAPI 1.7",
+					"Bukkit",
+					"Spigot",
+					"IntelliJ IDEA",
+				],
 			},
 			{
-				projectName: "Resume Builder",
-				image: "images/resume-builder.png",
+				projectName: "Wizard Academy",
+				image: "",
 				summary:
-					"Browser based editor to build and download Resumes in a customizable templates.",
-				preview: "https://vinaysomawat.github.io/Resume-Builder",
-				techStack: ["HTML", "Bootstrap", "JavaScript"],
+					"Wizard Academy is a Minecraft 'Anarchy Factions' modpack/dedicated server that I have been overseeing all operations of since January 2020. The modpack currently has 310,000+ unique logins, and 1,000,000+ client runs as of 08/03/2022.",
+				preview: "https://www.technicpack.net/modpack/wizard-academy",
+				techStack: [
+					"Java",
+					"ForgeAPI 1.7",
+					"Bukkit",
+					"Spigot",
+					"IntelliJ IDEA",
+				],
 			},
 		],
-		software: [
+		personal: [
+			
+		],
+		university: [
 			{
-				projectName: "Pizza Ordering ChatBot",
-				image: "images/pizzaorderchatbot.png",
+				projectName: "Labyrinth",
+				image: "images/labyrinth.png",
 				summary:
-					"ChatBot using Dialogflow, Firebase database which stores the chat data in the realtime database.",
-				preview:
-					"https://github.com/vinaysomawat/Pizza-Ordering-ChatBot",
-				techStack: ["Dailogflow", "Firebase"],
-			},
-			{
-				projectName: "WhatsApp-Bot",
-				image: "images/whatsappbot.jpg",
-				summary:
-					"Python script which helps to send messages to WhatsApp contacts automatically using selenium and web automation.",
-				preview: "https://github.com/vinaysomawat/WhatsApp-Bot",
-				techStack: ["Selenium", "Chrome Webdriver", "Python"],
-			},
-			{
-				projectName: "Bill Generator",
-				image: "images/billgenerator.png",
-				summary:
-					"GUI to transfer data to excel sheets and generate bills on the local shops.",
-				preview: "https://github.com/vinaysomawat/Bill-Generator",
-				techStack: ["Tkinter", "Openxlpy", "Python"],
+					"Labyrinth is a Dungeon Crawler video game for PS4 using a fully-proprietary data-driven 2D engine and renderer that has been built from scratch over the course of my 3rd academic year studying Computer Science for Games at Sheffield Hallam University. Includes more complex algorithms such as A* pathfinding, behaviour trees, real-time collisions, and other low-level engine features.",
+				preview: "https://github.com/O-T-B",
+				techStack: [
+					"C++",
+					"PS4",
+					"Visual Studio",
+					"RapidJSON",
+					"Tiled Editor",
+					"JuiceFX",
+				],
 			},
 		],
-		android: [
-			{
-				projectName: "NITW-CSE",
-				image: "images/nitwcse.jpg",
-				summary:
-					"The Application display details of Department courses, reference books, research, publication and faculty profile.",
-				preview: "https://github.com/vinaysomawat/NITW-CSE",
-				techStack: ["JAVA", "XML", "Android"],
-			},
-			{
-				projectName: "CareerHigh-App",
-				image: "images/carrerhigh.png",
-				summary:
-					"The Application display the webpages of website careerhigh.in in android devices.",
-				preview: "https://github.com/vinaysomawat/CareerHigh-Android",
-				techStack: ["JAVA", "XML", "Android"],
-			},
-		],
-		freelance: [
-			{
-				projectName: "SnylloAir.com",
-				image: "images/snylloair.png",
-				summary:
-					"Developed a company website to showcase the purpose, services and products provided by the company to audience.",
-				preview: "https://www.snylloair.com/",
-				techStack: ["Bootstrap", "JavaScript", "AWS-S3"],
-			},
-			{
-				projectName: "Delivery+",
-				image: "images/AM-Logo-.png",
-				summary:
-					"Android Application to display website in android devices.",
-				preview:
-					"https://play.google.com/store/apps/details?id=com.americanmarket.americanmarketandroid",
-				techStack: ["Android", "JAVA", "Play Store"],
-			},
+		college: [
+			
 		],
 	},
 	experience: [

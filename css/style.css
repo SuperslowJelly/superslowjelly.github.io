@@ -693,7 +693,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project-card {
-	height: 150px;
+	height: auto;
 }
 
 .project-info {
@@ -1968,11 +1968,11 @@ ul {
 }
 
 .accordion li.open .link {
-	color: #028090;
+	color: #FFF;
 }
 
 .accordion li.open i {
-	color: #028090;
+	color: #FFF;
 }
 
 .accordion li.open i.fa-chevron-down {
