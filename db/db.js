@@ -15,116 +15,111 @@ export default {
 			],
 		},
 	},
-	skills: [
-		{
-			title: "Languages",
-			skillName: "C++",
-			color: "1",
-			percentage: "95",
-		},
-		{
-			title: "Languages",
-			skillName: "Java",
-			color: "1",
-			percentage: "95",
-		},
-		{
-			title: "Languages",
-			skillName: "C#",
-			color: "1",
-			percentage: "75",
-		},
-		{
-			title: "Languages",
-			skillName: "JavaScript",
-			color: "1",
-			percentage: "80",
-		},
-		{
-			title: "Frameworks/Libraries",
-			skillName: "PS4",
-			color: "2",
-			percentage: "80",
-		},
-		{
-			title: "Frameworks/Libraries",
-			skillName: "DX12",
-			color: "2",
-			percentage: "75",
-		},
-		{
-			title: "Frameworks/Libraries",
-			skillName: "DX11",
-			color: "2",
-			percentage: "60",
-		},
-		{
-			title: "Backend",
-			skillName: "SQL",
-			color: "3",
-			percentage: "75",
-		},
-		{
-			title: "Backend",
-			skillName: "S/FTP",
-			color: "3",
-			percentage: "95",
-		},
-		{
-			title: "Backend",
-			skillName: "SSH",
-			color: "3",
-			percentage: "95",
-		},
-		{
-			title: "Design",
-			skillName: "HTML",
-			color: "4",
-			percentage: "75",
-		},
-		{
-			title: "Design",
-			skillName: "CSS",
-			color: "4",
-			percentage: "75",
-		},
-		{
-			title: "Version Control",
-			skillName: "GitHub",
-			color: "6",
-			percentage: "90",
-		},
-		{
-			title: "Version Control",
-			skillName: "JIRA",
-			color: "6",
-			percentage: "75",
-		},
-		{
-			title: "Version Control",
-			skillName: "Notion",
-			color: "6",
-			percentage: "80",
-		},
-		{
-			title: "Editor",
-			skillName: "Visual Studio",
-			color: "8",
-			percentage: "90",
-		},
-		{
-			title: "Editor",
-			skillName: "VS Code",
-			color: "8",
-			percentage: "85",
-		},
-		{
-			title: "Editor",
-			skillName: "IntelliJ IDEA",
-			color: "8",
-			percentage: "95",
-		},
-	],
+	skills: {
+		languages: [
+			{
+				skillName: "C++",
+				color: "8",
+				percentage: "80",
+			},
+			{
+				skillName: "Java",
+				color: "8",
+				percentage: "80",
+			},
+			{
+				skillName: "C#",
+				color: "3",
+				percentage: "50",
+			},
+			{
+				title: "Languages",
+				skillName: "JavaScript",
+				color: "3",
+				percentage: "50",
+			},
+		],
+		libraries: [
+			{
+				skillName: "PS4",
+				color: "3",
+				percentage: "50",
+			},
+			{
+				skillName: "DX12",
+				color: "3",
+				percentage: "50",
+			},
+			{
+				skillName: "DX11",
+				color: "3",
+				percentage: "50",
+			},
+		],
+		backend: [
+			{
+				skillName: "SQL",
+				color: "8",
+				percentage: "80",
+			},
+			{
+				skillName: "S/FTP",
+				color: "8",
+				percentage: "80",
+			},
+			{
+				skillName: "SSH",
+				color: "3",
+				percentage: "50",
+			},
+		],
+		design: [
+			{
+				skillName: "HTML",
+				color: "8",
+				percentage: "80",
+			},
+			{
+				skillName: "CSS",
+				color: "3",
+				percentage: "50",
+			},
+		],
+		versionControl: [
+			{
+				skillName: "GitHub",
+				color: "8",
+				percentage: "80",
+			},
+			{
+				skillName: "JIRA",
+				color: "3",
+				percentage: "50",
+			},
+			{
+				skillName: "Notion",
+				color: "1",
+				percentage: "20",
+			},
+		],
+		environments: [
+			{
+				skillName: "Visual Studio",
+				color: "8",
+				percentage: "80",
+			},
+			{
+				skillName: "VS Code",
+				color: "8",
+				percentage: "80",
+			},
+			{
+				skillName: "IntelliJ IDEA",
+				color: "8",
+				percentage: "80",
+			},
+		]
+	},
 	projects: {
 		web: [
 			{

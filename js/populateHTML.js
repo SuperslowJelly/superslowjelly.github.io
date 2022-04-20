@@ -205,7 +205,12 @@ function populateLinks(items, id) {
 	}
 }
 
-populateSkills(data.skills, "skills");
+populateSkills(data.skills.languages, "skills-Languages");
+populateSkills(data.skills.libraries, "skills-Libraries");
+populateSkills(data.skills.backend, "skills-Backend");
+populateSkills(data.skills.design, "skills-Design");
+populateSkills(data.skills.versionControl, "skills-VersionControl");
+populateSkills(data.skills.environments, "skills-Environments");
 
 //populateProjects(data.projects.web, "web-projects");
 //populateProjects(data.projects.software, "software-projects");
