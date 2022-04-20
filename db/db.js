@@ -1,20 +1,4 @@
 export default {
-	bio: {
-		about: {
-			text: [
-				"Hello! 😁",
-				"I'm Chae Taylor. I'm currently studying Computer Science for Games at Sheffield Hallam University.",
-				"I'm a developer, a designer, and an overall techie.",
-				"I love to create with all the technology at my disposal.",
-				"I'm currently looking for a permanent post-graduate position in games development!"
-			],
-		},
-		contact: {
-			text: [
-				"If you would like to get in touch with me, be it for exploring a technology, a position, or to just say hi, feel free to contact me via LinkedIn, or message me on Discord at 'JELLY#0001'!",
-			],
-		},
-	},
 	skills: {
 		languages: [
 			{
