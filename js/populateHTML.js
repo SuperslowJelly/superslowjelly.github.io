@@ -40,7 +40,7 @@ function populateProjects(items, id) {
 		h4.className = "project-heading";
 		h4.innerHTML = items[i].projectName;
 
-		let a = document.createElement("a");
+		let a = document.createElement("p");
 		a.href = items[i].preview;
 		a.target = "_blank";
 		a.append(h4);
