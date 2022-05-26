@@ -41,8 +41,6 @@ function populateProjects(items, id) {
 		h4.innerHTML = items[i].projectName;
 
 		let a = document.createElement("p");
-		a.href = items[i].preview;
-		a.target = "_blank";
 		a.append(h4);
 
 		let img = document.createElement("img");
@@ -62,6 +60,16 @@ function populateProjects(items, id) {
 		p.className = "project-description";
 		p.innerHTML = items[i].summary;
 
+		let divLink = document.createElement("div");
+		divLink.className = "project-link";
+
+		let link = document.createElement("a");
+		link.innerHTML = items[i].preview;
+		link.href = items[i].preview;
+		link.target = "_blank";
+		divLink.append(link);
+
+
 		let divSpan = document.createElement("div");
 		for (let k = 0; k < items[i].techStack.length; k++) {
 			let span = document.createElement("span");
@@ -73,6 +81,7 @@ function populateProjects(items, id) {
 		let divSubHeading = document.createElement("div");
 		divSubHeading.className = "sub-heading";
 		divSubHeading.append(p);
+		divSubHeading.append(divLink);
 		divSubHeading.append(divSpan);
 		divResumeContentRight.append(divSubHeading);
 

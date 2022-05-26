@@ -2043,6 +2043,9 @@ ul {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+.project-link {
+	text-align: center;
+}
 .img-fluid {
 	float: left;
   border-radius: 10%;
