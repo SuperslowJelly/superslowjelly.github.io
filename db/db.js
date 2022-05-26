@@ -349,8 +349,8 @@ export default {
 				projectName: "Labyrinth",
 				image: "images/labyrinth.png",
 				summary:
-					"Labyrinth is a Dungeon Crawler video game for PS4 using a fully-proprietary data-driven 2D engine and renderer that has been built from scratch over the course of my 3rd academic year studying Computer Science for Games at Sheffield Hallam University. Includes more complex algorithms such as A* pathfinding, behaviour trees, real-time collisions, and other low-level engine features.",
-				preview: "https://github.com/O-T-B",
+				"Labyrinth is a 2D pixel art top-down dungeon crawler for PS4 using a fully-proprietary data-driven 2D engine and renderer that has been built from scratch. This project includes more complex algorithms such as bi-directional A* pathfinding, enemy AI behaviour trees, entity component systems, real-time collisions, and other low-level engine features. The player can choose between a melee class and a ranged class which come with their own unique attacks and abilities. They can also customise their character's appearance by choosing one of 9 skins. The game itself follows the player through 4 uniquely designed levels depicting the floors of a castle, battling goblins along the way, ending in a labyrinth and a Minotaur boss. I will be porting this game to PC to accommodate for my master's dissertation study, in which I will create a consolidated player skill quantification-influenced procedural world generation system.",
+				preview: "https://youtu.be/67PO-1RfvE0",
 				techStack: [
 					"C++",
 					"PS4",
