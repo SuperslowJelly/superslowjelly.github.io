@@ -318,7 +318,8 @@ Accordion.prototype.dropdown = function (e) {
 	}
 };
 
-var accordion = new Accordion($("#accordion"), false);
+var accordionAchievements = new Accordion($("#accordion-achievements"), false);
+var accordionProjects = new Accordion($("#accordion-projects"), false);
 
 function enableDarkMode() {
 	document.body.classList.toggle("dark-mode");

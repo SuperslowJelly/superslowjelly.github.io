@@ -145,6 +145,47 @@ export default {
 			},
 		],
 	},
+	awards: {
+		showcase: [
+			{
+				awardName: "GameRepublic & Rockstar Leeds - Best Team: #1",
+				image: "images/game-republic-rockstar-award.jpg",
+				summary:
+				"I received 1st place for Red Kite Games' award for 'Games Technology' at GameRepublic's student showcase 2022 for our game: 'Labyrinth'.",
+				preview: "https://www.youtube.com/watch?v=EZIuoH1Aq6M",
+				techStack: [
+					"Games Technology",
+					"Game Republic",
+					"Rockstar Leeds",
+				],
+			},
+			{
+				awardName: "GameRepublic & Red Kite Games - Games Technology: #1",
+				image: "images/game-republic-red-kite-award.jpg",
+				summary:
+				"I received 1st place for Rockstar Leeds' award for 'Best Team' at GameRepublic's student showcase 2022 for our game: 'Labyrinth'.",
+				preview: "https://www.youtube.com/watch?v=EZIuoH1Aq6M",
+				techStack: [
+					"Best Team",
+					"Game Republic",
+					"Rockstar Leeds",
+				],
+			},
+		],
+		educational: [
+			{
+				awardName: "SHU - End of Year Show: Level 6 Award",
+				image: "images/shu-end-of-year-award.jpeg",
+				summary:
+				"I received the award for best of Level 6 at Sheffield Hallam Universtiy's end of year showcase for our game: 'Labyrinth', judged by a panel of industry professionals from companies such as Sumo Digital and Twinkl.",
+				preview: "https://blog.shu.ac.uk/i2ri-public/2022/05/24/the-games-end-of-year-showcase-and-competition-eoys-2022/",
+				techStack: [
+					"Best of Level 6",
+					"SHU End of Year Show",
+				],
+			},
+		]
+	},
 	projects: {
 		professional: [
 			{
