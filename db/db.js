@@ -148,6 +148,22 @@ export default {
 	projects: {
 		professional: [
 			{
+				projectName: "Labyrinth",
+				image: "images/labyrinth.png",
+				summary:
+				"I created Labyrinth as part of a University group project, but went on to further its development during my part-time employment at Steel Minions over the summer of 2022. Labyrinth is a 2D pixel art top-down dungeon crawler for PS4 using a fully-proprietary data-driven 2D engine and renderer that has been built from scratch. This project includes more complex algorithms such as bi-directional A* pathfinding, enemy AI behaviour trees, entity component systems, real-time collisions, and other low-level engine features. The player can choose between a melee class and a ranged class which come with their own unique attacks and abilities. They can also customise their character's appearance by choosing one of 9 skins. The game itself follows the player through 4 uniquely designed levels depicting the floors of a castle, battling goblins along the way, ending in a labyrinth and a Minotaur boss. I will be using the game for master's dissertation, in which I will create a consolidated player skill quantification-influenced procedural world generation system.",
+				preview: "https://youtu.be/67PO-1RfvE0",
+				techStack: [
+					"C++",
+					"PS4",
+					"Visual Studio",
+					"RapidJSON",
+					"Tiled Editor",
+					"JuiceFX",
+					"Steel Minions",
+				],
+			},
+			{
 				projectName: "FossilTech",
 				image: "",
 				summary:
@@ -346,22 +362,7 @@ export default {
 		],
 		university: [
 			{
-				projectName: "Labyrinth",
-				image: "images/labyrinth.png",
-				summary:
-				"Labyrinth is a 2D pixel art top-down dungeon crawler for PS4 using a fully-proprietary data-driven 2D engine and renderer that has been built from scratch. This project includes more complex algorithms such as bi-directional A* pathfinding, enemy AI behaviour trees, entity component systems, real-time collisions, and other low-level engine features. The player can choose between a melee class and a ranged class which come with their own unique attacks and abilities. They can also customise their character's appearance by choosing one of 9 skins. The game itself follows the player through 4 uniquely designed levels depicting the floors of a castle, battling goblins along the way, ending in a labyrinth and a Minotaur boss. I will be porting this game to PC to accommodate for my master's dissertation study, in which I will create a consolidated player skill quantification-influenced procedural world generation system.",
-				preview: "https://youtu.be/67PO-1RfvE0",
-				techStack: [
-					"C++",
-					"PS4",
-					"Visual Studio",
-					"RapidJSON",
-					"Tiled Editor",
-					"JuiceFX",
-				],
-			},
-			{
-				projectName: "\"Realistic Tower Defence\"",
+				projectName: "\"Realistic\" Tower Defence",
 				image: "",
 				summary:
 					"Realistic Tower Defence is a tower defence game built for PC in Unity as part of my 2nd academic year studying Computer Science for Games at Sheffield Hallam University for a group project with one other programmer, and 3 artists. A trailer video is linked to this project card with a preview.",
@@ -376,7 +377,25 @@ export default {
 	},
 	experience: [
 		{
-			title: "Complex Gaming FTB.",
+			title: "Steel Minions.",
+			duration: "June 2022 - Present",
+			subtitle: "Part-Time Game Developer",
+			details: [
+				"Employed to further develop our game: 'Labyrinth' over the summer of 2022.",
+				"Short-term goal is to implement a more present unique selling point for the game.",
+				"Long-term goal is to get the game to a publishable standard in hopes of pitching to Sony and/or any interested publishers.",
+			],
+			tags: [
+				"C++",
+				"PS4",
+				"Game Programming",
+				"Game Art",
+				"Game Design",
+			],
+			icon: "group",
+		},
+		{
+			title: "Complex Gaming FTB",
 			duration: "August 2017 - Present",
 			subtitle: "Lead Network Manager",
 			details: [
