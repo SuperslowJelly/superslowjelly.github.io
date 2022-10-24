@@ -101,6 +101,38 @@ function populateAwards(items, id) {
 	}
 }
 
+function populateGalleries(items, id) {
+	let galleriesdesign = document.getElementById(id);
+	for (let i = 0; i < items.length; i++) {
+		let p = document.createElement("p");
+
+		let h4 = document.createElement("h4");
+		h4.className = "project-heading";
+		h4.innerHTML = items[i].title;
+		p.append(h4);
+
+		let a = document.createElement("a");
+		a.className = "thumbnail fancybox";
+		a.rel = "lightbox";
+		a.href = items[i].image;
+
+		let img = document.createElement("img");
+		img.className = "img-responsive";
+		img.src = items[i].image;
+
+		a.append(img);
+		p.append(a);
+
+		let divProjectCard = document.createElement("div");
+		divProjectCard.className = "project-card";
+		divProjectCard.append(p);
+
+		let li = document.createElement("li");
+		li.append(divProjectCard);
+		galleriesdesign.append(li);
+	}
+}
+
 // TODO: Collapse into common function.
 function populateProjects(items, id) {
 	let projectdesign = document.getElementById(id);
@@ -294,6 +326,10 @@ populateSkills(data.skills.libraries, "skills-libraries");
 populateSkills(data.skills.backend, "skills-backend");
 populateSkills(data.skills.versionControl, "skills-versioncontrol");
 populateSkills(data.skills.environments, "skills-environments");
+
+for (let i = 0; i < data.galleries.length; i++) {
+	populateGalleries(data.galleries[i], `gallery${i}`);
+}
 
 populateAwards(data.awards.showcase, "showcase-awards");
 populateAwards(data.awards.educational, "educational-awards");

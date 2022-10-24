@@ -145,6 +145,40 @@ export default {
 			},
 		],
 	},
+	galleries: [
+		[
+			{
+				title: "Revelation BLT Banner",
+				image: "/images/rev-logo.png"
+			},
+			{
+				title: "Revelation BLT Icon",
+				image: "/images/rev-icon.png"
+			},
+			{
+				title: "Stoneblock 2 BLT Banner",
+				image: "/images/sb2-banner.png"
+			},
+			{
+				title: "Stoneblock 2 BLT Icon",
+				image: "/images/sb2-icon.png"
+			},
+			{
+				title: "Advanced Wizardry Logo",
+				image: "/images/aw-logo.png"
+			},
+			{
+				title: "Advanced Wizardry Icon",
+				image: "/images/aw-icon.png"
+			}
+		],
+		[
+			
+		],
+		[
+
+		]
+	],
 	awards: {
 		showcase: [
 			{

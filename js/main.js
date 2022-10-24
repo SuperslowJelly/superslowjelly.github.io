@@ -318,6 +318,7 @@ Accordion.prototype.dropdown = function (e) {
 	}
 };
 
+var accordionAchievements = new Accordion($("#accordion-galleries"), false);
 var accordionAchievements = new Accordion($("#accordion-achievements"), false);
 var accordionProjects = new Accordion($("#accordion-projects"), false);
 
@@ -333,3 +334,14 @@ const isDarkMode = () =>
 if (isDarkMode()) {
 	enableDarkMode();
 }
+
+// Prep gallery.
+$(document).ready(function(){
+	//FANCYBOX
+	//https://github.com/fancyapps/fancyBox
+	$(".fancybox").fancybox({
+			openEffect: "none",
+			closeEffect: "none"
+	});
+});
+ 

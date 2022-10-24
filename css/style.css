@@ -2178,3 +2178,32 @@ span {
     font-weight: 600;
 }
   
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+.thumbnail {
+	/* border-bottom: 1px solid #000; */
+	border: 2px solid;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background-color: transparent;
+	border-color: transparent;
+	margin-bottom: 10px !important;
+	padding-top: 5px !important;
+	padding-bottom: 5px !important;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+.thumbnail:hover {
+	border-color: #02c39a !important;
+}
+.img-responsive {
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	background-color: transparent;
+	border-color: transparent;
+}
