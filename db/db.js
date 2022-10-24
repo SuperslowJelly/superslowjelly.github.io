@@ -37,7 +37,7 @@ export default {
 		engines: [
 			{
 				skillName: "Unity",
-				percentage: "80",
+				percentage: "50",
 			},
 			{
 				skillName: "Unreal",
