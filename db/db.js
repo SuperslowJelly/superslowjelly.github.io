@@ -185,7 +185,7 @@ export default {
 				awardName: "GameRepublic & Rockstar Leeds - Best Team: #1",
 				image: "images/game-republic-rockstar-award.jpg",
 				summary:
-				"I received 1st place for Red Kite Games' award for 'Games Technology' at GameRepublic's student showcase 2022 for our game: 'Labyrinth'.",
+				"I received 1st place for Rockstar Leeds' award for 'Best Team' at GameRepublic's student showcase 2022 for our game: 'Labyrinth'.",
 				preview: "https://www.youtube.com/watch?v=EZIuoH1Aq6M",
 				techStack: [
 					"Games Technology",
@@ -197,12 +197,12 @@ export default {
 				awardName: "GameRepublic & Red Kite Games - Games Technology: #1",
 				image: "images/game-republic-red-kite-award.jpg",
 				summary:
-				"I received 1st place for Rockstar Leeds' award for 'Best Team' at GameRepublic's student showcase 2022 for our game: 'Labyrinth'.",
+				"I received 1st place for Red Kite Games' award for 'Games Technology' at GameRepublic's student showcase 2022 for our game: 'Labyrinth'.",
 				preview: "https://www.youtube.com/watch?v=EZIuoH1Aq6M",
 				techStack: [
 					"Best Team",
 					"Game Republic",
-					"Rockstar Leeds",
+					"Red Kit Games",
 				],
 			},
 		],
