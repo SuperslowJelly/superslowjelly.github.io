@@ -88,15 +88,15 @@ export default {
 		],
 		backend: [
 			{
-				skillName: "SQL",
-				percentage: "80",
-			},
-			{
 				skillName: "S/FTP",
 				percentage: "80",
 			},
 			{
 				skillName: "SSH",
+				percentage: "50",
+			},
+			{
+				skillName: "SQL",
 				percentage: "50",
 			},
 		],
@@ -115,10 +115,14 @@ export default {
 			},
 			{
 				skillName: "JIRA",
-				percentage: "50",
+				percentage: "80",
 			},
 			{
 				skillName: "Notion",
+				percentage: "20",
+			},
+			{
+				skillName: "Miro",
 				percentage: "20",
 			},
 		],
@@ -133,6 +137,10 @@ export default {
 			},
 			{
 				skillName: "IntelliJ IDEA",
+				percentage: "80",
+			},
+			{
+				skillName: "JetBrains Rider",
 				percentage: "80",
 			},
 			{
@@ -222,22 +230,6 @@ export default {
 	},
 	projects: {
 		professional: [
-			{
-				projectName: "Labyrinth",
-				image: "images/labyrinth.png",
-				summary:
-				"I created Labyrinth as part of a University group project, but went on to further its development during my part-time employment at Steel Minions over the summer of 2022. Labyrinth is a 2D pixel art top-down dungeon crawler for PS4 using a fully-proprietary data-driven 2D engine and renderer that has been built from scratch. This project includes more complex algorithms such as bi-directional A* pathfinding, enemy AI behaviour trees, entity component systems, real-time collisions, and other low-level engine features. The player can choose between a melee class and a ranged class which come with their own unique attacks and abilities. They can also customise their character's appearance by choosing one of 9 skins. The game itself follows the player through 4 uniquely designed levels depicting the floors of a castle, battling goblins along the way, ending in a labyrinth and a Minotaur boss. I will be using the game for master's dissertation, in which I will create a consolidated player skill quantification-influenced procedural world generation system.",
-				preview: "https://youtu.be/67PO-1RfvE0",
-				techStack: [
-					"C++",
-					"PS4",
-					"Visual Studio",
-					"RapidJSON",
-					"Tiled Editor",
-					"JuiceFX",
-					"Steel Minions",
-				],
-			},
 			{
 				projectName: "FossilTech",
 				image: "",
@@ -437,6 +429,39 @@ export default {
 		],
 		university: [
 			{
+				projectName: "Player Performance Based Procedural Dungeons",
+				image: "",
+				summary:
+				"This project was created as the deliverable for my Master's Dissertation: \"A comparison of player performance-driven proceduraly generated dungeons to human-designed dungeons.\" This project involved the research and creation of a novel procedural dungeon generation system that produced dungeons of continually-appropriate dungeons based on data from a player performance quantification system. The results, measured using a human trial with 23 participants, suggested that an overwhelming majority of players preferred the procedurally generated dungeons over their human-designed equivalents, with demonstrably increased player engagement, and improved gameplay experience.",
+				preview: "",
+				techStack: [
+					"C++",
+					"Procedural Generation",
+					"Dynamic Difficulty",
+					"Dungeon Creation",
+					"Visual Studio",
+					"RapidJSON",
+					"Tiled Editor",
+					"JuiceFX",
+				],
+			},
+			{
+				projectName: "Labyrinth",
+				image: "images/labyrinth.png",
+				summary:
+				"I created Labyrinth as part of a University group project, but went on to further its development during my part-time employment at Steel Minions over the summer of 2022. Labyrinth is a 2D pixel art top-down dungeon crawler for PS4 using a fully-proprietary data-driven 2D engine and renderer that has been built from scratch. This project includes more complex algorithms such as bi-directional A* pathfinding, enemy AI behaviour trees, entity component systems, real-time collisions, and other low-level engine features. The player can choose between a melee class and a ranged class which come with their own unique attacks and abilities. They can also customise their character's appearance by choosing one of 9 skins. The game itself follows the player through 4 uniquely designed levels depicting the floors of a castle, battling goblins along the way, ending in a labyrinth and a Minotaur boss. I will be using the game for master's dissertation, in which I will create a consolidated player skill quantification-influenced procedural world generation system.",
+				preview: "https://youtu.be/67PO-1RfvE0",
+				techStack: [
+					"C++",
+					"PS4",
+					"Visual Studio",
+					"RapidJSON",
+					"Tiled Editor",
+					"JuiceFX",
+					"Steel Minions",
+				],
+			},
+			{
 				projectName: "\"Realistic\" Tower Defence",
 				image: "",
 				summary:
@@ -452,11 +477,24 @@ export default {
 	},
 	experience: [
 		{
-			title: "Steel Minions.",
-			duration: "June 2022 - Present",
+			title: "Quantum Cat Ltd",
+			duration: "January 2023 - Present",
+			subtitle: "Game Developer",
+			details: [
+				"Employed as the sole programmer for primarily C# Unity-based projects."
+			],
+			tags: [
+				"C#",
+				"Unity"
+			],
+			icon: "group",
+		},
+		{
+			title: "Steel Minions",
+			duration: "June 2022 - July 2022",
 			subtitle: "Part-Time Game Developer",
 			details: [
-				"Employed to further develop our game: 'Labyrinth' over the summer of 2022.",
+				"Employed for a fixed 6 week period to further develop our game: 'Labyrinth' over the summer of 2022.",
 				"Short-term goal is to implement a more present unique selling point for the game.",
 				"Long-term goal is to get the game to a publishable standard in hopes of pitching to Sony and/or any interested publishers.",
 			],
@@ -502,8 +540,10 @@ export default {
 			duration: "2018 - Present",
 			subtitle: "Sheffield Hallam University, South Yorkshire",
 			details: [
-				"Currently in my 4th year of study, including a 1 year placement.",
+				"Currently in my 5th and final year of study, including a 1 year placement.",
 				"So far having completed the following modules:",
+				"MComp Individual Project",
+				"Advanced Graphics Projects",
 				"Effective C++ Programming",
 				"Research Based Games Console Projects",
 				"Mathematics for Modelling And Rendering",
@@ -522,9 +562,10 @@ export default {
 			tags: [
 				"DX12/11 Development",
 				"Sony/PS4 Development",
+				"Parallel Programming",
 				"Object-Oriented Programming",
 				"Data-Driven Programming",
-				"Template-Driven Metaprogramming",
+				"Template-Driven Programming",
 				"Project Management",
 				"Professional Writing",
 				"Development-Centric Study",
