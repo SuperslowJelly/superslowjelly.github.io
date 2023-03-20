@@ -50,6 +50,10 @@ export default {
 		],
 		libraries: [
 			{
+				skillName: "PS4",
+				percentage: "80",
+			},
+			{
 				skillName: "STL",
 				percentage: "80",
 			},
@@ -66,15 +70,19 @@ export default {
 				percentage: "80",
 			},
 			{
-				skillName: "PS4",
-				percentage: "50",
-			},
-			{
 				skillName: "DX12",
 				percentage: "50",
 			},
 			{
 				skillName: "DX11",
+				percentage: "50",
+			},
+			{
+				skillName: "SSE Intrinsics",
+				percentage: "50",
+			},
+			{
+				skillName: "PThreads",
 				percentage: "50",
 			},
 			{
@@ -145,6 +153,10 @@ export default {
 			},
 			{
 				skillName: "Illustrator",
+				percentage: "80",
+			},
+			{
+				skillName: "Paint.NET",
 				percentage: "80",
 			},
 			{
@@ -509,7 +521,7 @@ export default {
 		},
 		{
 			title: "Complex Gaming FTB",
-			duration: "August 2017 - Present",
+			duration: "August 2017 - February 2023",
 			subtitle: "Lead Network Manager",
 			details: [
 				"Lead manager of any and all operations of the 'FTB' portion of the MC-Complex network.",
@@ -641,6 +653,14 @@ export default {
 				{
 					text: "Linkedin",
 					link: "https://www.linkedin.com/in/chae-taylor-001/",
+				},
+				{
+					text: "Twitter",
+					link: "https://twitter.com/_SuperslowJelly/",
+				},
+				{
+					text: "Instagram",
+					link: "https://www.instagram.com/superslowjelly/",
 				},
 			],
 		},
