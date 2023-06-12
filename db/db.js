@@ -86,6 +86,14 @@ export default {
 				percentage: "50",
 			},
 			{
+				skillName: "GLFW",
+				percentage: "50",
+			},
+			{
+				skillName: "IMGUI",
+				percentage: "50",
+			},
+			{
 				skillName: "Spigot",
 				percentage: "50",
 			},
@@ -228,6 +236,17 @@ export default {
 		],
 		educational: [
 			{
+				awardName: "SHU - End of Year Show: Level 7 Award",
+				image: "",
+				summary:
+				"For the 2nd year in a row, I received the award for the best of Level 7 at Sheffield Hallam University's end of year showcase for our game: 'Labyrinthia: Lost Realms', judged by a panel of industry professionals.",
+				preview: "",
+				techStack: [
+					"Best of Level 7",
+					"SHU End of Year Show",
+				],
+			},
+			{
 				awardName: "SHU - End of Year Show: Level 6 Award",
 				image: "images/shu-end-of-year-award.jpeg",
 				summary:
@@ -242,6 +261,16 @@ export default {
 	},
 	projects: {
 		professional: [
+			{
+				projectName: "Timekeeper: Beyond Death",
+				image: "images/timekeeper-cover.jpg",
+				summary:
+					"Timekeeper is one of the projects I am currently working on at Quantum Cat, with more information coming soon!",
+				preview: "https://www.quantumcat.co.uk/",
+				techStack: [
+					""
+				],
+			},
 			{
 				projectName: "FossilTech",
 				image: "",
@@ -311,6 +340,16 @@ export default {
 			},
 		],
 		personal: [
+			{
+				projectName: "Brainrot Engine",
+				image: "images/brainrot-logo.png",
+				summary:
+					"Brainrot is a game engine I am developing to keep my C++ skills sharp whilst I work on production projects that won't. It aims to provide a multi-platform solution for creating 2D games entirely in C++ for (almost) any rendering API, such as D3D9/11/12, GNM (PS4), Metal, OpenGL, Vulkan, and WebGL, across every platform. I am currently working with the rest of the Labyrinth games team to port Labyrinthia: Lost Realms to PC using Brainrot for a Steam release.",
+				preview: "",
+				techStack: [
+					"C++", "BGFX", "GLFW", "IMGUI", "D3D", "GNM", "Metal", "OpenGL", "Vulkan", "WebGL", "Android", "iOS", "Linux", "macOS", "PS4", "UWP", "Windows",
+				],
+			},
 			{
 				projectName: "Dungeon Fight",
 				image: "",
@@ -440,6 +479,36 @@ export default {
 			},
 		],
 		university: [
+			{
+				projectName: "Labyrinthia: Lost Realms",
+				image: "images/labyrinthia-logo.png",
+				summary:
+				"My final piece of university work, a 12-week group project to further our previous game, which became \"Labyrinthia: Lost Realms\". I once again took up the role of lead programmer, and we were able to produce a full-featured dungeon crawler in full Sony TRC compliance for the PlayStation 4. I worked on a large number of new features for this project, such as 20+ unique enemies and bosses, an advanced AI behaviour tree system, overhauled physics, PlayStation Network trophies support, a robust save data system using the PS4 libraries, an overahuled state machine, composite character creation system, full NPC scripting and dialogue system, deep level editor support, player stats system, improved animations system, overhauled menus system, and so much more. Furthermore, we took the opportunity to mock-pitch the game to a real publisher: 'PQube', who were very impressed with the quality of our game given the timeframe, giving us very insightful feedback.",
+				preview: "https://youtu.be/E1_mmoObxR4",
+				techStack: [
+					"C++",
+					"PS4",
+					"Visual Studio",
+					"RapidJSON",
+					"Tiled Editor",
+					"JuiceFX",
+					"Steel Minions",
+				],
+			},
+			{
+				projectName: "SIMD & Pthreads Study",
+				image: "",
+				summary:
+				"As part of my 2nd Level 7 project, I was tasked with the optimisation of a resource-intensive piece of software using advanced techniques. I chose to research and implemented parallelism using both multithreading and SIMD. Learning to work with data-oriented design and SIMD was particularly challenging, as it changed my entire though process in my approach to programming. However, I was able to develop a robust system which included an advanced thread pool using modern C++20 techniques that I have been able to use in subsequent projects with ease - such as for Labyrinthia on the PlayStation 4.",
+				preview: "",
+				techStack: [
+					"C++",
+					"Parallelism",
+					"PThreads",
+					"SIMD",
+					"Data-Oriented Design",
+				],
+			},
 			{
 				projectName: "Player Performance Based Procedural Dungeons",
 				image: "",
