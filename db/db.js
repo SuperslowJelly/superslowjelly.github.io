@@ -201,7 +201,7 @@ export default {
 			}
 		],
 		[
-			
+
 		],
 		[
 
@@ -484,7 +484,7 @@ export default {
 				image: "images/labyrinthia-logo.png",
 				summary:
 				"My final piece of university work, a 12-week group project to further our previous game, which became \"Labyrinthia: Lost Realms\". I once again took up the role of lead programmer, and we were able to produce a full-featured dungeon crawler in full Sony TRC compliance for the PlayStation 4. I worked on a large number of new features for this project, such as 20+ unique enemies and bosses, an advanced AI behaviour tree system, overhauled physics, PlayStation Network trophies support, a robust save data system using the PS4 libraries, an overahuled state machine, composite character creation system, full NPC scripting and dialogue system, deep level editor support, player stats system, improved animations system, overhauled menus system, and so much more. Furthermore, we took the opportunity to mock-pitch the game to a real publisher: 'PQube', who were very impressed with the quality of our game given the timeframe, giving us very insightful feedback.",
-				preview: "https://youtu.be/E1_mmoObxR4",
+				preview: "https://youtu.be/N6892pSsgTQ",
 				techStack: [
 					"C++",
 					"PS4",
