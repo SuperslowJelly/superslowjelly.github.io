@@ -236,6 +236,38 @@ export default {
 		],
 		educational: [
 			{
+				awardName: "Sony PlayStation Portfolio Award",
+				image: "images/sony-award.jpg",
+				summary:
+				"At my graduation from Hallam, I received the PlayStation Portfolio Award from Sony Interactive Entertainment, which (as far as I'm aware) is the only Sony-presented award available to UK students. The award is given in recognition of the most impressive portfolio of work using PlayStation systems.",
+				preview: "",
+				techStack: [
+					"Sony PlayStation",
+				],
+			},
+			{
+				awardName: "Outstanding TIGA Post Graduate of the Year",
+				image: "images/tiga-pg.png",
+				summary:
+				"Following my graduation from SHU, I received the TIGA award for 'Outstanding Post Graduate of the Year' at the 2023 TIGA Education Awards.",
+				preview: "https://tiga.org/news/tiga-awards-89-students-tiga-graduate-of-the-year-accolade",
+				techStack: [
+					"TIGA",
+					"Post Graduate of the Year",
+				],
+			},
+			{
+				awardName: "Outstanding TIGA Graduate of the Year: Programmer",
+				image: "images/tiga-prgrmr.png",
+				summary:
+				"Following my graduation from SHU, I received the TIGA award for 'Outstanding Graduate of the Year: Programmer' at the 2023 TIGA Education Awards.",
+				preview: "https://tiga.org/news/tiga-awards-89-students-tiga-graduate-of-the-year-accolade",
+				techStack: [
+					"TIGA",
+					"Programmer of the Year",
+				],
+			},
+			{
 				awardName: "SHU - End of Year Show: Level 7 Award",
 				image: "",
 				summary:
