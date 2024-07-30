@@ -6,6 +6,10 @@ export default {
 				percentage: "80",
 			},
 			{
+				skillName: "C#",
+				percentage: "80",
+			},
+			{
 				skillName: "Java",
 				percentage: "80",
 			},
@@ -22,10 +26,6 @@ export default {
 				percentage: "50",
 			},
 			{
-				skillName: "C#",
-				percentage: "50",
-			},
-			{
 				skillName: "JavaScript",
 				percentage: "50",
 			},
@@ -37,7 +37,7 @@ export default {
 		engines: [
 			{
 				skillName: "Unity",
-				percentage: "50",
+				percentage: "80",
 			},
 			{
 				skillName: "Unreal",
@@ -55,6 +55,10 @@ export default {
 			},
 			{
 				skillName: "STL",
+				percentage: "80",
+			},
+			{
+				skillName: "YarnSpinner",
 				percentage: "80",
 			},
 			{
@@ -122,15 +126,15 @@ export default {
 				percentage: "80",
 			},
 			{
+				skillName: "JIRA",
+				percentage: "80",
+			},
+			{
 				skillName: "Trello",
 				percentage: "80",
 			},
 			{
 				skillName: "Asana",
-				percentage: "80",
-			},
-			{
-				skillName: "JIRA",
 				percentage: "80",
 			},
 			{
