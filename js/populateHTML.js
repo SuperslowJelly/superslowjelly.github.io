@@ -331,6 +331,7 @@ for (let i = 0; i < data.galleries.length; i++) {
 	populateGalleries(data.galleries[i], `gallery${i}`);
 }
 
+populateAwards(data.awards.professional, "professional-awards");
 populateAwards(data.awards.showcase, "showcase-awards");
 populateAwards(data.awards.educational, "educational-awards");
 

@@ -15,14 +15,10 @@ export default {
 			},
 			{
 				skillName: "HTML",
-				percentage: "80",
+				percentage: "50",
 			},
 			{
 				skillName: "CSS",
-				percentage: "80",
-			},
-			{
-				skillName: "PHP",
 				percentage: "50",
 			},
 			{
@@ -32,6 +28,10 @@ export default {
 			{
 				skillName: "Python",
 				percentage: "50",
+			},
+			{
+				skillName: "PHP",
+				percentage: "20",
 			},
 		],
 		engines: [
@@ -212,6 +212,20 @@ export default {
 		]
 	],
 	awards: {
+		professional: [
+			{
+				awardName: "UK Games Fund - Round 13 Prototype Funding",
+				image: "images/ukGamesFund-logo.png",
+				summary:
+				"One of my projects with Quantum Cat: 'Hustle Ink' was awarded funding in the UK Games Fund's 13th Prototype round. This involved putting together a video-based application pitch, followed by an interview with the fund's leadership. The project also received further funding after a 2nd progress pitch later down the line.",
+				preview: "https://ukgamesfund.com/funded-project/hustle-ink/",
+				techStack: [
+					"Games Funding",
+					"UK Games Fund",
+					"Pitching",
+				],
+			},
+		],
 		showcase: [
 			{
 				awardName: "GameRepublic & Rockstar Leeds - Best Team: #1",
@@ -298,20 +312,46 @@ export default {
 	projects: {
 		professional: [
 			{
+				projectName: "Brainrot-GFX",
+				image: "images/brainrot-gfx-banner.png",
+				summary:
+					"Brainrot-GFX is my solo venture in producing assets for the Unity Marketplace. My current project under this is 'PixelSkinner', which is a programming, design, and art package which implements skinning functionality for pixel art sprites. The prevailing use-case is to improve representation and diversity in games by removing the workload and technical limitations required to implement variations in skin colour. However, the system is very open-ended and can be used for anything involved in changing colour or even implementing frame-less animations.",
+				preview: "https://www.brainrot-gfx.com/",
+				techStack: [
+					"Unity",
+					"Asset Production",
+				],
+			},
+			{
 				projectName: "Timekeeper: Beyond Death",
 				image: "images/timekeeper-cover.jpg",
 				summary:
-					"Timekeeper is one of the projects I am currently working on at Quantum Cat, with more information coming soon!",
+					"Timekeeper is one of the projects I have been working on at Quantum Cat. It's a dark and gritty narrative adventure with branching paths and meaningful choices. It's built in Unity (targeting PC/Console) using advanced modern pixel art techniques, pixel-perfect lighting, and more. Although my time with Quantum Cat has come to an end, I do own the IP for our projects and am intent on continuing with them pending a publishing deal or other funding. Feel free to ask me about the project for more details!",
 				preview: "https://www.quantumcat.co.uk/",
 				techStack: [
-					""
+					"Unity",
+					"Pixel Art",
+					"Narrative"
+				],
+			},
+			{
+				projectName: "Hustle Ink",
+				image: "images/hustle-ink-tattoo.png",
+				summary:
+					"Hustle Ink is my other project from Quantum Cat, it's a mobile management sim revolving around owning a tattoo studio. Aside from its isometric pixel art style, it's set apart by its realistic simulation of the tattooing process as a game mechanic - in which players can tattoo designs on customers themselves with realistic physics and effects. The project is mechanically close to completion, requiring just a push in the right direction with an artist and a designer to create the content it needs. As with Timekeeper, I am looking to further this project, so please get in touch if you'd like more details!",
+				preview: "https://www.quantumcat.co.uk/",
+				techStack: [
+					"Unity",
+					"Pixel Art",
+					"Management Sim",
+					"Realistic Tattooing"
 				],
 			},
 			{
 				projectName: "FossilTech",
 				image: "",
 				summary:
-					"Fossiltech is a Minecraft modpack/dedicated server experience that I have created as a game overhaul of Minecraft. The gameloop involves mining for fossils and genetically engineering the extracted DNA from the fossils to create living dinosaurs, which are then taken care of in a jurrasic park-style system by the player. I created a suite of proprietary client and server-side features using Forge API 1.12.2, and SpongeAPI 7 in Java, alongside graphical and literary marketing material to promote the modpack. The server has approx. 2,400+ unique logins as of 08/03/2022 - full-scale marketing is yet to take place.",
+					"Fossiltech is a modpack/dedicated server experience that I have created as a game overhaul of Minecraft. The gameloop involves mining for fossils and genetically engineering the extracted DNA from the fossils to create living dinosaurs, which are then taken care of in a jurrasic park-style system by the player. I created a suite of proprietary client and server-side features using Forge API 1.12.2, and SpongeAPI 7 in Java, alongside graphical and literary marketing material to promote the modpack. The server has approx. 2,400+ unique logins as of 08/03/2022 - full-scale marketing is yet to take place.",
 				preview: "https://www.technicpack.net/modpack/complex-gaming-fossiltech",
 				techStack: [
 					"Java",
@@ -325,7 +365,7 @@ export default {
 				projectName: "Kouros.uk",
 				image: "images/kouros.png",
 				summary:
-					"Website created for a local Greek taverna in my home-town, featuring mobile-first design, multiple expansive pages, online Facebook Messenger chat integration, and more.",
+					"Website created for a local Greek taverna in my home town, featuring mobile-first design, multiple expansive pages, online Facebook Messenger chat integration, and more.",
 				preview: "https://kouros.uk/",
 				techStack: [
 					"HTML",
