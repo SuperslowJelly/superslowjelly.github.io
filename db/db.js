@@ -693,12 +693,13 @@ export default {
 	],
 	education: [
 		{
-			title: "Masters in Computer Science for Games",
-			duration: "2018 - Present",
+			title: "1st Class Masters in Computer Science for Games",
+			duration: "2018 - 2023",
 			subtitle: "Sheffield Hallam University, South Yorkshire",
 			details: [
-				"Currently in my 5th and final year of study, including a 1 year placement.",
-				"So far having completed the following modules:",
+				"Graduated at 1st class, with a grade of 84%.",
+				"Held the position of student representative for 2 years, alongside Games Development Society Treasurer for my final year with management of their online community indefinitely.",
+				"Completed the following modules:",
 				"MComp Individual Project",
 				"Advanced Graphics Projects",
 				"Effective C++ Programming",
@@ -707,7 +708,7 @@ export default {
 				"Object-Oriented Programming for Games",
 				"Professional Development Project",
 				"Programming for Games",
-			  "Software-Hardware Optimisation Techniques",
+			  	"Software-Hardware Optimisation Techniques",
 				"Web Application Development",
 				"Fundamentals of Computer Architecture",
 				"Fundamentals of Programming",
