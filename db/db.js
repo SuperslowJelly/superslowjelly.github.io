@@ -634,8 +634,24 @@ export default {
 	},
 	experience: [
 		{
+			title: "NXI",
+			duration: "October 2024 - Present",
+			subtitle: "Game Developer",
+			details: [
+				"Employed as a games programmer for primarily C# Unity-based projects on mobile web platforms."
+			],
+			tags: [
+				"C#",
+				"Unity",
+				"Mobile",
+				"WebGL",
+				"Full- Stack"
+			],
+			icon: "group",
+		},
+		{
 			title: "Quantum Cat Ltd",
-			duration: "January 2023 - Present",
+			duration: "January 2023 - September 2024",
 			subtitle: "Game Developer",
 			details: [
 				"Employed as the sole programmer for primarily C# Unity-based projects."
