@@ -312,10 +312,35 @@ export default {
 	projects: {
 		professional: [
 			{
+				projectName: "Billionaire's Path",
+				image: "images/billionaires-path.png",
+				summary:
+					"Billionaire's Path is a WebGL-based browser game running through a Telegram mini app that I was hired by NXI to produce on short notice. Within its first month online, the game reached 500,000 monthly active users. It's an idle tapper game dressed up as a faux banking app where users tap a stocks graph to earn money in an account. Users can also complete jobs, which are used as a cross-advertisement technique to drive users to other projects. It's available to play using the link below.",
+				preview: "https://t.me/billionaires_path_bot/billypath",
+				techStack: [
+					"Unity",
+					"WebGL",
+					"Telegram",
+					"Platform APIs",
+				],
+			},
+			{
+				projectName: "PixelSkinner",
+				image: "images/pixelskinner-cover.png",
+				summary:
+					"PixelSkinner is a programming, design, and art package which implements skinning functionality for pixel art sprites. The prevailing use-case is to improve representation and diversity in games by removing the workload and technical limitations required to implement variations in skin colour. However, the system is very open-ended and can be used for anything involved in changing colour or even implementing frame-less animations.",
+				preview: "https://www.brainrot-gfx.com/",
+				techStack: [
+					"Unity",
+					"Shaders",
+					"Tools",
+				],
+			},
+			{
 				projectName: "Brainrot-GFX",
 				image: "images/brainrot-gfx-banner.png",
 				summary:
-					"Brainrot-GFX is my solo venture in producing assets for the Unity Marketplace. My current project under this is 'PixelSkinner', which is a programming, design, and art package which implements skinning functionality for pixel art sprites. The prevailing use-case is to improve representation and diversity in games by removing the workload and technical limitations required to implement variations in skin colour. However, the system is very open-ended and can be used for anything involved in changing colour or even implementing frame-less animations.",
+					"Brainrot-GFX is my solo venture in producing assets for the Unity Marketplace. Currently, the first asset to be produced under Brainrot is PixelSkinner (detailed in its own project card above).",
 				preview: "https://www.brainrot-gfx.com/",
 				techStack: [
 					"Unity",
@@ -634,11 +659,27 @@ export default {
 	},
 	experience: [
 		{
+			title: "NXI",
+			duration: "September 2024 - January 2025",
+			subtitle: "Mobile Game Developer",
+			details: [
+				"Employed on short notice to produce 'Billionaire's Path' - a Unity WebGL game running through a Telegram mini-app on a very tight schedule."
+			],
+			tags: [
+				"C#",
+				"Unity",
+				"WebGL",
+				"Telegram",
+				"Custom APIs",
+			],
+			icon: "group",
+		},
+		{
 			title: "Quantum Cat Ltd",
-			duration: "January 2023 - Present",
+			duration: "January 2023 - September 2024",
 			subtitle: "Game Developer",
 			details: [
-				"Employed as the sole programmer for primarily C# Unity-based projects."
+				"Employed as the sole programmer for primarily C# Unity-based projects.",
 			],
 			tags: [
 				"C#",
